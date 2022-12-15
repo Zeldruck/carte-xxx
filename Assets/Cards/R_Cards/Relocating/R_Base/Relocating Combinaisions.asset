@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c77876a88d6bfa9448581715b805c187, type: 3}
+  m_Name: Relocating Combinaisions
+  m_EditorClassIdentifier: 
+  combinaisonGroups1:
+  - combinaison:
+      details:
+        name: Le demenagement
+        description: Start
+        image: {fileID: 0}
+        descriptionDuringTimer: During
+        imageDuringTimer: {fileID: 0}
+        descriptionAtEnd: End
+        imageAtEnd: {fileID: 0}
+      receiverCard: {fileID: 0}
+      timerDuration: 20
+      basePlayerCards:
+      - {fileID: 11400000, guid: 4fa6d570c9eeb9c459a1b5072d40b1d0, type: 2}
+      extraPlayerCards: []
+      rewardReceiverCards:
+      - {fileID: 11400000, guid: a0e337f8393f2ba4eb6b495e8febe298, type: 2}
+      rewardPlayerCards:
+      - {fileID: 11400000, guid: 4fa6d570c9eeb9c459a1b5072d40b1d0, type: 2}
+  combinaisonGroups2: []
+  combinaisonGroups3: []
+  combinaisonGroups4: []
